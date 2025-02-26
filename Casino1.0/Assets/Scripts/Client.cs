@@ -22,7 +22,6 @@ public class Client : MonoBehaviour
             stream = client.GetStream();
             Debug.Log("Connected to server");
 
-            // Start listening for messages
             stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
         }
         catch (Exception e)

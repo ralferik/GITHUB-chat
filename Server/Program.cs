@@ -33,7 +33,7 @@ class Server
             while (true)
             {
                 int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                if (bytesRead == 0) break; // Client disconnected
+                if (bytesRead == 0) break;
 
                 string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
                 Console.WriteLine($"Received from client: {message}");
