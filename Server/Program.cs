@@ -47,6 +47,7 @@ class Server
                 byte[] responseData = Encoding.UTF8.GetBytes(response);
                 stream.Write(responseData, 0, responseData.Length);
             }
+
         }
         catch (Exception ex)
         {

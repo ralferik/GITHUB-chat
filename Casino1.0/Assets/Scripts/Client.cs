@@ -30,6 +30,7 @@ public class Client : MonoBehaviour
         }
     }
 
+
     void ReceiveMessage(IAsyncResult ar)
     {
         try
