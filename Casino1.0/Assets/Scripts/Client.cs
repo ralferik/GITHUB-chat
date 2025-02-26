@@ -8,9 +8,11 @@ public class Client : MonoBehaviour
     private TcpClient client;
     private NetworkStream stream;
     private byte[] buffer = new byte[1024];
+    private bool isConnected = false;
 
     void Start()
     {
+        Debug.Log("Client script started.");
         ConnectToServer();
     }
 
@@ -18,9 +20,11 @@ public class Client : MonoBehaviour
     {
         try
         {
-            client = new TcpClient("127.0.0.1", 8080);
+            Debug.Log("Attempting to connect to server...");
+            client = new TcpClient("127.0.0.1", 8080); // asendan hiljem serveri addressiga
             stream = client.GetStream();
-            Debug.Log("Connected to server");
+            isConnected = true;
+            Debug.Log("Connected to server!");
 
             stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
         }
@@ -30,65 +34,56 @@ public class Client : MonoBehaviour
         }
     }
 
-
     void ReceiveMessage(IAsyncResult ar)
     {
         try
         {
-            int bytesRead = stream.EndRead(ar);
-            if (bytesRead == 0)
-            {
-                Debug.LogWarning("Disconnected from server.");
-                Cleanup();
+            if (!isConnected || client == null || !client.Connected)
                 return;
+
+            int bytesRead = stream.EndRead(ar);
+            if (bytesRead > 0)
+            {
+                string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                Debug.Log("Received from server: " + message);
+
+                if (message == "Welcome to Princess Sofia's Casino!")
+                {
+                    Debug.Log("*** Welcome to Princess Sofia's Casino! Enjoy your stay! ***");
+                }
+
+                if (isConnected)
+                {
+                    stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
+                }
             }
-
-            string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-            Debug.Log("Received from server: " + message);
-
-            stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
         }
-        catch (Exception)
+        catch (Exception e)
         {
-            Debug.LogWarning("Server has shut down. Disconnected.");
-            Cleanup();
+            if (isConnected)
+            {
+                Debug.LogError("Error receiving message: " + e.Message);
+            }
         }
     }
 
     public void SendMessageToServer(string message)
     {
-        if (client == null || !client.Connected) 
-        {
-            Debug.LogError("Cannot send message: Not connected to server.");
-            return;
-        }
+        if (client == null || !client.Connected) return;
 
         byte[] data = Encoding.UTF8.GetBytes(message);
-        try
-        {
-            stream.Write(data, 0, data.Length);
-            Debug.Log("Sent to server: " + message);
-        }
-        catch (Exception)
-        {
-            Debug.LogWarning("Failed to send message. Server might be down.");
-            Cleanup();
-        }
-    }
-
-    void Cleanup()
-    {
-        if (client != null)
-        {
-            stream?.Close();
-            client?.Close();
-            client = null;
-            Debug.Log("Disconnected from server.");
-        }
+        stream.Write(data, 0, data.Length);
+        Debug.Log("Sent to server: " + message);
     }
 
     void OnApplicationQuit()
     {
-        Cleanup();
+        if (client != null && isConnected)
+        {
+            Debug.Log("Disconnected from the server");
+            isConnected = false;
+            stream.Close();
+            client.Close();
+        }
     }
 }
