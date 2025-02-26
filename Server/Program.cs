@@ -15,7 +15,8 @@ class Server
         while (true)
         {
             TcpClient client = server.AcceptTcpClient();
-            Console.WriteLine("Client connected!");
+            IPEndPoint clientEndPoint = (IPEndPoint)client.Client.RemoteEndPoint;
+            Console.WriteLine($"Client connected: {clientEndPoint.Address}:{clientEndPoint.Port}");
 
             Thread clientThread = new Thread(HandleClient);
             clientThread.Start(client);
@@ -25,18 +26,22 @@ class Server
     static void HandleClient(object obj)
     {
         TcpClient client = (TcpClient)obj;
+        IPEndPoint clientEndPoint = (IPEndPoint)client.Client.RemoteEndPoint;
         NetworkStream stream = client.GetStream();
         byte[] buffer = new byte[1024];
 
         try
         {
+            string welcomeMessage = $"Welcome to Princess Sofia's Casino!";
+            byte[] welcomeData = Encoding.UTF8.GetBytes(welcomeMessage);
+            stream.Write(welcomeData, 0, welcomeData.Length);
+
             while (true)
             {
                 int bytesRead = stream.Read(buffer, 0, buffer.Length);
                 if (bytesRead == 0) break;
-
                 string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"Received from client: {message}");
+                Console.WriteLine($"[{clientEndPoint.Address}:{clientEndPoint.Port}] Sent: {message}");
 
                 string response = $"Echo: {message}";
                 byte[] responseData = Encoding.UTF8.GetBytes(response);
@@ -45,9 +50,10 @@ class Server
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            Console.WriteLine($"Client {clientEndPoint.Address}:{clientEndPoint.Port} disconnected unexpectedly: {ex.Message}");
         }
 
+        Console.WriteLine($"Client disconnected: {clientEndPoint.Address}:{clientEndPoint.Port}");
         client.Close();
     }
 }
