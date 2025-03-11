@@ -1,39 +1,64 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
-public class ChatUI : MonoBehaviour
+public class ChatUI : NetworkBehaviour
 {
     public static ChatUI Instance;
 
-    public InputField chatInput;
-    public Text chatLog;
+    public TMP_InputField chatInput;
+    public TextMeshProUGUI chatLog;
     public Button sendButton;
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void Start()
+    {
+        if (sendButton != null)
+        {
+            sendButton.onClick.AddListener(SendChatMessage);
+        }
     }
 
     public void SendChatMessage()
     {
-        string message = chatInput.text;
-        if (!string.IsNullOrEmpty(message))
+        if (!string.IsNullOrEmpty(chatInput.text))
         {
-            CmdSendChatMessage(message);
+            CmdSendChatMessage(chatInput.text);
             chatInput.text = "";
+            chatInput.ActivateInputField();
         }
     }
 
-    [Command]
+    [Command(requiresAuthority = false)]
     void CmdSendChatMessage(string message, NetworkConnectionToClient sender = null)
     {
         string fullMessage = $"Player {sender.connectionId}: {message}";
-        FindObjectOfType<CustomNetworkManager>().SendChatMessage(fullMessage);
+        RpcReceiveChatMessage(fullMessage);
+    }
+
+    [ClientRpc]
+    void RpcReceiveChatMessage(string message)
+    {
+        DisplayMessage(message);
     }
 
     public void DisplayMessage(string message)
     {
-        chatLog.text += "\n" + message;
+        if (chatLog != null)
+        {
+            chatLog.text += "\n" + message;
+        }
     }
 }

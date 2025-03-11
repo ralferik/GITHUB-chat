@@ -1,25 +1,27 @@
-using Mirror;
 using UnityEngine;
+using Mirror;
 
-public class CustomNetworkManager : NetworkManager
+public class NetworkChatManager : NetworkManager
 {
     public override void OnServerConnect(NetworkConnectionToClient conn)
     {
         base.OnServerConnect(conn);
-        Debug.Log($"Player connected: {conn.connectionId}");
-        SendChatMessage($"[SERVER]: Player {conn.connectionId} joined the game.");
+        Debug.Log($"Client {conn.connectionId} connected");
+
+        if (ChatUI.Instance != null)
+        {
+            ChatUI.Instance.DisplayMessage($"Player {conn.connectionId} joined the chat.");
+        }
     }
 
-    [Server]
-    public void SendChatMessage(string message)
+    public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
-        RpcReceiveChatMessage(message);
-    }
+        Debug.Log($"Client {conn.connectionId} disconnected");
+        base.OnServerDisconnect(conn);
 
-    [ClientRpc]
-    void RpcReceiveChatMessage(string message)
-    {
-        Debug.Log(message);
-        ChatUI.Instance.DisplayMessage(message);
+        if (ChatUI.Instance != null)
+        {
+            ChatUI.Instance.DisplayMessage($"Player {conn.connectionId} left the chat.");
+        }
     }
 }

@@ -1,53 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using Mirror;
 
-public class NetworkChatManager : NetworkBehaviour // ✅ Fix: Inherit from NetworkBehaviour
+public class NetworkChatManager : NetworkManager
 {
-    public TMP_InputField chatInputField;
-    public TextMeshProUGUI chatText;
-    public ScrollRect scrollRect;
-
-    private static NetworkChatManager instance;
-
-    void Start()
+    public override void OnServerConnect(NetworkConnectionToClient conn)
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
+        base.OnServerConnect(conn);
+        Debug.Log($"Client {conn.connectionId} connected");
     }
 
-    void Update()
+    public override void OnServerDisconnect(NetworkConnectionToClient conn)
     {
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            SendChatMessage();
-        }
-    }
-
-    public void SendChatMessage()
-    {
-        if (chatInputField.text.Trim() != "")
-        {
-            CmdSendChatMessage(chatInputField.text);
-            chatInputField.text = "";
-            chatInputField.ActivateInputField();
-        }
-    }
-
-    [Command] // ✅ Fix: This must be inside a NetworkBehaviour
-    void CmdSendChatMessage(string message, NetworkConnectionToClient sender = null)
-    {
-        RpcReceiveChatMessage($"{sender.connectionId}: {message}");
-    }
-
-    [ClientRpc] // ✅ Fix: This must be inside a NetworkBehaviour
-    void RpcReceiveChatMessage(string message)
-    {
-        chatText.text += "\n" + message;
-        Canvas.ForceUpdateCanvases();
-        scrollRect.verticalNormalizedPosition = 0f;
+        Debug.Log($"Client {conn.connectionId} disconnected");
+        base.OnServerDisconnect(conn);
     }
 }
