@@ -21,7 +21,7 @@ public class Client : MonoBehaviour
         try
         {
             Debug.Log("Attempting to connect to server...");
-            client = new TcpClient("127.0.0.1", 8080); // asendan hiljem serveri addressiga
+            client = new TcpClient("127.0.0.1", 8080);
             stream = client.GetStream();
             isConnected = true;
             Debug.Log("Connected to server!");
@@ -45,17 +45,9 @@ public class Client : MonoBehaviour
             if (bytesRead > 0)
             {
                 string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Debug.Log("Received from server: " + message);
+                Debug.Log($"[SERVER]: {message}");
 
-                if (message == "Welcome to Princess Sofia's Casino!")
-                {
-                    Debug.Log("*** Welcome to Princess Sofia's Casino! Enjoy your stay! ***");
-                }
-
-                if (isConnected)
-                {
-                    stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
-                }
+                stream.BeginRead(buffer, 0, buffer.Length, ReceiveMessage, null);
             }
         }
         catch (Exception e)
@@ -80,6 +72,7 @@ public class Client : MonoBehaviour
     {
         if (client != null && isConnected)
         {
+            SendMessageToServer("Player has left the game.");
             Debug.Log("Disconnected from the server");
             isConnected = false;
             stream.Close();
