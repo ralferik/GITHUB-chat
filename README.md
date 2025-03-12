@@ -6,13 +6,14 @@ This project implements a **TCP-based client-server communication** system where
 
 ---
 
-## 🚀 Features
+## 🚀 Features (currently operating)
 
 - **Multi-client support**: Multiple clients can connect to the server at the same time.
 - **Server-side logging**: Logs each connected client's IP and port.
 - **Client-server messaging**: Clients receive a welcome message and can send messages to the server.
 - **Message broadcasting**: The server echoes messages back to other clients.
 - **Graceful disconnection handling**: When a client disconnects, the server removes it from the active list.
+- **Multi-player functionality**: Our game can support at least 2 players.
 
 ---
 
@@ -26,6 +27,10 @@ Ensure you have the following installed before running the application:
   Download: [https://unity.com/download](https://unity.com/download)
 
 ---
+## Technologies
+- Unity 6 framework
+- C#
+- Blender
 
 ## 🖥 Running the Server
 
