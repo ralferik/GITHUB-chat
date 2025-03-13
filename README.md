@@ -28,9 +28,19 @@ Ensure you have the following installed before running the application:
 
 ---
 ## Technologies
+
 - Unity 6 framework
 - C#
 - Blender
+
+---
+
+## How to play
+
+- You can use the arrows on your keyboard to move forward and backward, left and right in the room.
+- There are currently no 3D character animations, meaning body parts cannot be moved yet, and the character cannot turn around.
+
+---
 
 ## 🖥 Running the Server
 
