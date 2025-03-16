@@ -1,0 +1,499 @@
+Index: Logs/shadercompiler-AssetImportWorker1-0.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'\r\nCmd: initializeCompiler\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/shadercompiler-AssetImportWorker1-0.log b/Logs/shadercompiler-AssetImportWorker1-0.log
+--- a/Logs/shadercompiler-AssetImportWorker1-0.log	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/Logs/shadercompiler-AssetImportWorker1-0.log	(date 1740590629123)
+@@ -1,3 +1,6 @@
+ Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'
+ Cmd: initializeCompiler
+ 
++Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
++
++Quitting shader compiler process
+Index: Logs/AssetImportWorker0.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Using pre-set license\r\nBuilt from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'\r\nOS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 31893 MB\r\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1\r\n\r\nCOMMAND LINE ARGUMENTS:\r\nC:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Unity.exe\r\n-adb2\r\n-batchMode\r\n-noUpm\r\n-name\r\nAssetImportWorker0\r\n-projectPath\r\nC:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\n-logFile\r\nLogs/AssetImportWorker0.log\r\n-srvPort\r\n59899\r\n-job-worker-count\r\n3\r\n-background-job-worker-count\r\n8\r\n-gc-helper-count\r\n1\r\nSuccessfully changed project path to: C:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\nC:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\n[UnityMemory] Configuration Parameters - Can be set up in boot.config\r\n    \"memorysetup-bucket-allocator-granularity=16\"\r\n    \"memorysetup-bucket-allocator-bucket-count=8\"\r\n    \"memorysetup-bucket-allocator-block-size=33554432\"\r\n    \"memorysetup-bucket-allocator-block-count=8\"\r\n    \"memorysetup-main-allocator-block-size=16777216\"\r\n    \"memorysetup-thread-allocator-block-size=16777216\"\r\n    \"memorysetup-gfx-main-allocator-block-size=16777216\"\r\n    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\r\n    \"memorysetup-cache-allocator-block-size=4194304\"\r\n    \"memorysetup-typetree-allocator-block-size=2097152\"\r\n    \"memorysetup-profiler-bucket-allocator-granularity=16\"\r\n    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\r\n    \"memorysetup-profiler-bucket-allocator-block-size=33554432\"\r\n    \"memorysetup-profiler-bucket-allocator-block-count=8\"\r\n    \"memorysetup-profiler-allocator-block-size=16777216\"\r\n    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\r\n    \"memorysetup-temp-allocator-size-main=16777216\"\r\n    \"memorysetup-job-temp-allocator-block-size=2097152\"\r\n    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\r\n    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\r\n    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\r\n    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-background-worker=32768\"\r\n    \"memorysetup-temp-allocator-size-job-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-preload-manager=33554432\"\r\n    \"memorysetup-temp-allocator-size-nav-mesh-worker=65536\"\r\n    \"memorysetup-temp-allocator-size-audio-worker=65536\"\r\n    \"memorysetup-temp-allocator-size-cloud-worker=32768\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gfx=262144\"\r\nPlayer connection [12196]  Target information:\r\n\r\nPlayer connection [12196]  * \"[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 3936033604 [EditorId] 3936033604 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QKRJVQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor\" \r\n\r\nPlayer connection [12196] Host joined multi-casting on [225.0.0.222:54997]...\r\nPlayer connection [12196] Host joined alternative multi-casting on [225.0.0.222:34997]...\r\nJobSystem: Creating JobQueue using job-worker-count value 3\r\nInput System module state changed to: Initialized.\r\n[Physics::Module] Initialized fallback backend.\r\n[Physics::Module] Id: 0xdecafbad\r\nLibrary Redirect Path: Library/\r\n[Physics::Module] Selected backend.\r\n[Physics::Module] Name: PhysX\r\n[Physics::Module] Id: 0xf2b8ea05\r\n[Physics::Module] SDK Version: 4.1.2\r\n[Physics::Module] Integration Version: 1.0.0\r\n[Physics::Module] Threading Mode: Multi-Threaded\r\nRefreshing native plugins compatible for Editor in 14.15 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nInitialize engine version: 6000.0.38f1 (82314a941f2d)\r\n[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems\r\n[Subsystems] Discovering subsystems at path C:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0/Assets\r\nGfxDevice: creating device client; kGfxThreadingModeNonThreaded\r\nDirect3D:\r\n    Version:  Direct3D 11.0 [level 11.1]\r\n    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)\r\n    Vendor:   NVIDIA\r\n    VRAM:     12115 MB\r\n    Driver:   32.0.15.6636\r\nInitialize mono\r\nMono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'\r\nMono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'\r\nMono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'\r\nUsing monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620\r\nBegin MonoManager ReloadAssembly\r\nRegistering precompiled unity dll's ...\r\nRegister platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll\r\nRegister platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll\r\nRegistered in 0.020217 seconds.\r\n- Loaded All Assemblies, in  2.900 seconds\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  1.097 seconds\r\nDomain Reload Profiling: 3985ms\r\n\tBeginReloadAssembly (1765ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (0ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (1ms)\r\n\tRebuildCommonClasses (232ms)\r\n\tRebuildNativeTypeToScriptingClass (98ms)\r\n\tinitialDomainReloadingComplete (363ms)\r\n\tLoadAllAssembliesAndSetupDomain (431ms)\r\n\t\tLoadAssemblies (1616ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (421ms)\r\n\t\t\tTypeCache.Refresh (418ms)\r\n\t\t\t\tTypeCache.ScanAssembly (395ms)\r\n\t\t\tBuildScriptInfoCaches (0ms)\r\n\t\t\tResolveRequiredComponents (1ms)\r\n\tFinalizeReload (1097ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (1049ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (94ms)\r\n\t\t\tSetLoadedEditorAssemblies (10ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (142ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (714ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (89ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (0ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (0ms)\r\n========================================================================\r\nWorker process is ready to serve import requests\r\nImport Worker Mode flag is 0x00\r\nBegin MonoManager ReloadAssembly\r\nSymbol file LoadedFromMemory is not a mono symbol file\r\n- Loaded All Assemblies, in  0.587 seconds\r\nRefreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nRefreshing native plugins compatible for Editor in 4.83 ms, found 2 plugins.\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  0.787 seconds\r\nDomain Reload Profiling: 1370ms\r\n\tBeginReloadAssembly (168ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (8ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (29ms)\r\n\tRebuildCommonClasses (29ms)\r\n\tRebuildNativeTypeToScriptingClass (13ms)\r\n\tinitialDomainReloadingComplete (32ms)\r\n\tLoadAllAssembliesAndSetupDomain (341ms)\r\n\t\tLoadAssemblies (326ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (110ms)\r\n\t\t\tTypeCache.Refresh (78ms)\r\n\t\t\t\tTypeCache.ScanAssembly (67ms)\r\n\t\t\tBuildScriptInfoCaches (27ms)\r\n\t\t\tResolveRequiredComponents (3ms)\r\n\tFinalizeReload (788ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (703ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (2ms)\r\n\t\t\tSetLoadedEditorAssemblies (6ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (100ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (452ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (136ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (7ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (7ms)\r\nLaunched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds\r\nRefreshing native plugins compatible for Editor in 5.24 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nUnloading 7 Unused Serialized files (Serialized files now loaded: 0)\r\nUnloading 2726 unused Assets / (0.6 MB). Loaded Objects now: 3209.\r\nMemory consumption went from 85.3 MB to 84.8 MB.\r\nTotal: 7.787700 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.089300 ms MarkObjects: 6.886800 ms  DeleteObjects: 0.489600 ms)\r\n\r\n========================================================================\r\nReceived Prepare\r\nBegin MonoManager ReloadAssembly\r\nSymbol file LoadedFromMemory is not a mono symbol file\r\n- Loaded All Assemblies, in  0.531 seconds\r\nRefreshing native plugins compatible for Editor in 6.56 ms, found 2 plugins.\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  1.139 seconds\r\nDomain Reload Profiling: 1667ms\r\n\tBeginReloadAssembly (173ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (6ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (40ms)\r\n\tRebuildCommonClasses (31ms)\r\n\tRebuildNativeTypeToScriptingClass (14ms)\r\n\tinitialDomainReloadingComplete (22ms)\r\n\tLoadAllAssembliesAndSetupDomain (288ms)\r\n\t\tLoadAssemblies (303ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (79ms)\r\n\t\t\tTypeCache.Refresh (3ms)\r\n\t\t\t\tTypeCache.ScanAssembly (0ms)\r\n\t\t\tBuildScriptInfoCaches (71ms)\r\n\t\t\tResolveRequiredComponents (3ms)\r\n\tFinalizeReload (1140ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (1001ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (3ms)\r\n\t\t\tSetLoadedEditorAssemblies (6ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (203ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (615ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (164ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (9ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (9ms)\r\nRefreshing native plugins compatible for Editor in 6.52 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nUnloading 0 Unused Serialized files (Serialized files now loaded: 0)\r\nUnloading 2724 unused Assets / (0.7 MB). Loaded Objects now: 3209.\r\nMemory consumption went from 84.2 MB to 83.6 MB.\r\nTotal: 12.674800 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.123500 ms MarkObjects: 10.750700 ms  DeleteObjects: 1.412600 ms)\r\n\r\nPrepare: number of updated asset objects reloaded= 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/AssetImportWorker0.log b/Logs/AssetImportWorker0.log
+--- a/Logs/AssetImportWorker0.log	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/Logs/AssetImportWorker0.log	(date 1740587028928)
+@@ -237,3 +237,103 @@
+ Total: 12.674800 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.123500 ms MarkObjects: 10.750700 ms  DeleteObjects: 1.412600 ms)
+ 
+ Prepare: number of updated asset objects reloaded= 0
++========================================================================
++Received Prepare
++Begin MonoManager ReloadAssembly
++Symbol file LoadedFromMemory is not a mono symbol file
++- Loaded All Assemblies, in  0.520 seconds
++Refreshing native plugins compatible for Editor in 5.27 ms, found 2 plugins.
++Native extension for WindowsStandalone target not found
++Native extension for WebGL target not found
++Mono: successfully reloaded assembly
++- Finished resetting the current domain, in  1.146 seconds
++Domain Reload Profiling: 1662ms
++	BeginReloadAssembly (173ms)
++		ExecutionOrderSort (0ms)
++		DisableScriptedObjects (7ms)
++		BackupInstance (0ms)
++		ReleaseScriptingObjects (0ms)
++		CreateAndSetChildDomain (42ms)
++	RebuildCommonClasses (31ms)
++	RebuildNativeTypeToScriptingClass (13ms)
++	initialDomainReloadingComplete (23ms)
++	LoadAllAssembliesAndSetupDomain (276ms)
++		LoadAssemblies (290ms)
++		RebuildTransferFunctionScriptingTraits (0ms)
++		AnalyzeDomain (78ms)
++			TypeCache.Refresh (4ms)
++				TypeCache.ScanAssembly (0ms)
++			BuildScriptInfoCaches (69ms)
++			ResolveRequiredComponents (2ms)
++	FinalizeReload (1146ms)
++		ReleaseScriptCaches (0ms)
++		RebuildScriptCaches (0ms)
++		SetupLoadedEditorAssemblies (988ms)
++			LogAssemblyErrors (0ms)
++			InitializePlatformSupportModulesInManaged (4ms)
++			SetLoadedEditorAssemblies (10ms)
++			BeforeProcessingInitializeOnLoad (203ms)
++			ProcessInitializeOnLoadAttributes (598ms)
++			ProcessInitializeOnLoadMethodAttributes (165ms)
++			AfterProcessingInitializeOnLoad (8ms)
++			EditorAssembliesLoaded (0ms)
++		ExecutionOrderSort2 (0ms)
++		AwakeInstancesAfterBackupRestoration (13ms)
++Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
++Preloading 0 native plugins for Editor in 0.00 ms.
++Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
++Unloading 2724 unused Assets / (0.5 MB). Loaded Objects now: 3209.
++Memory consumption went from 84.3 MB to 83.7 MB.
++Total: 9.071900 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.173800 ms MarkObjects: 8.083300 ms  DeleteObjects: 0.505700 ms)
++
++Prepare: number of updated asset objects reloaded= 0
++========================================================================
++Received Prepare
++Begin MonoManager ReloadAssembly
++Symbol file LoadedFromMemory is not a mono symbol file
++- Loaded All Assemblies, in  0.534 seconds
++Refreshing native plugins compatible for Editor in 5.62 ms, found 2 plugins.
++Native extension for WindowsStandalone target not found
++Native extension for WebGL target not found
++Mono: successfully reloaded assembly
++- Finished resetting the current domain, in  1.096 seconds
++Domain Reload Profiling: 1627ms
++	BeginReloadAssembly (181ms)
++		ExecutionOrderSort (0ms)
++		DisableScriptedObjects (7ms)
++		BackupInstance (0ms)
++		ReleaseScriptingObjects (0ms)
++		CreateAndSetChildDomain (52ms)
++	RebuildCommonClasses (33ms)
++	RebuildNativeTypeToScriptingClass (11ms)
++	initialDomainReloadingComplete (22ms)
++	LoadAllAssembliesAndSetupDomain (283ms)
++		LoadAssemblies (303ms)
++		RebuildTransferFunctionScriptingTraits (0ms)
++		AnalyzeDomain (75ms)
++			TypeCache.Refresh (5ms)
++				TypeCache.ScanAssembly (0ms)
++			BuildScriptInfoCaches (66ms)
++			ResolveRequiredComponents (3ms)
++	FinalizeReload (1097ms)
++		ReleaseScriptCaches (0ms)
++		RebuildScriptCaches (0ms)
++		SetupLoadedEditorAssemblies (991ms)
++			LogAssemblyErrors (0ms)
++			InitializePlatformSupportModulesInManaged (3ms)
++			SetLoadedEditorAssemblies (8ms)
++			BeforeProcessingInitializeOnLoad (217ms)
++			ProcessInitializeOnLoadAttributes (587ms)
++			ProcessInitializeOnLoadMethodAttributes (168ms)
++			AfterProcessingInitializeOnLoad (8ms)
++			EditorAssembliesLoaded (0ms)
++		ExecutionOrderSort2 (0ms)
++		AwakeInstancesAfterBackupRestoration (9ms)
++Refreshing native plugins compatible for Editor in 5.66 ms, found 2 plugins.
++Preloading 0 native plugins for Editor in 0.00 ms.
++Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
++Unloading 2724 unused Assets / (0.6 MB). Loaded Objects now: 3209.
++Memory consumption went from 84.3 MB to 83.7 MB.
++Total: 10.005300 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.125900 ms MarkObjects: 8.931200 ms  DeleteObjects: 0.579400 ms)
++
++Prepare: number of updated asset objects reloaded= 0
+Index: Logs/AssetImportWorker1.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Using pre-set license\r\nBuilt from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'\r\nOS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 31893 MB\r\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1\r\n\r\nCOMMAND LINE ARGUMENTS:\r\nC:\\Program Files\\Unity\\Hub\\Editor\\6000.0.38f1\\Editor\\Unity.exe\r\n-adb2\r\n-batchMode\r\n-noUpm\r\n-name\r\nAssetImportWorker1\r\n-projectPath\r\nC:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\n-logFile\r\nLogs/AssetImportWorker1.log\r\n-srvPort\r\n59899\r\n-job-worker-count\r\n3\r\n-background-job-worker-count\r\n8\r\n-gc-helper-count\r\n1\r\nSuccessfully changed project path to: C:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\nC:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0\r\n[UnityMemory] Configuration Parameters - Can be set up in boot.config\r\n    \"memorysetup-bucket-allocator-granularity=16\"\r\n    \"memorysetup-bucket-allocator-bucket-count=8\"\r\n    \"memorysetup-bucket-allocator-block-size=33554432\"\r\n    \"memorysetup-bucket-allocator-block-count=8\"\r\n    \"memorysetup-main-allocator-block-size=16777216\"\r\n    \"memorysetup-thread-allocator-block-size=16777216\"\r\n    \"memorysetup-gfx-main-allocator-block-size=16777216\"\r\n    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\r\n    \"memorysetup-cache-allocator-block-size=4194304\"\r\n    \"memorysetup-typetree-allocator-block-size=2097152\"\r\n    \"memorysetup-profiler-bucket-allocator-granularity=16\"\r\n    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\r\n    \"memorysetup-profiler-bucket-allocator-block-size=33554432\"\r\n    \"memorysetup-profiler-bucket-allocator-block-count=8\"\r\n    \"memorysetup-profiler-allocator-block-size=16777216\"\r\n    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\r\n    \"memorysetup-temp-allocator-size-main=16777216\"\r\n    \"memorysetup-job-temp-allocator-block-size=2097152\"\r\n    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\r\n    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\r\n    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\r\n    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-background-worker=32768\"\r\n    \"memorysetup-temp-allocator-size-job-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-preload-manager=33554432\"\r\n    \"memorysetup-temp-allocator-size-nav-mesh-worker=65536\"\r\n    \"memorysetup-temp-allocator-size-audio-worker=65536\"\r\n    \"memorysetup-temp-allocator-size-cloud-worker=32768\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gi-baking-worker=262144\"\r\n    \"memorysetup-temp-allocator-size-gfx=262144\"\r\nPlayer connection [9920]  Target information:\r\n\r\nPlayer connection [9920]  * \"[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 3725672305 [EditorId] 3725672305 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QKRJVQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor\" \r\n\r\nPlayer connection [9920] Host joined multi-casting on [225.0.0.222:54997]...\r\nPlayer connection [9920] Host joined alternative multi-casting on [225.0.0.222:34997]...\r\nJobSystem: Creating JobQueue using job-worker-count value 3\r\nInput System module state changed to: Initialized.\r\n[Physics::Module] Initialized fallback backend.\r\n[Physics::Module] Id: 0xdecafbad\r\nLibrary Redirect Path: Library/\r\n[Physics::Module] Selected backend.\r\n[Physics::Module] Name: PhysX\r\n[Physics::Module] Id: 0xf2b8ea05\r\n[Physics::Module] SDK Version: 4.1.2\r\n[Physics::Module] Integration Version: 1.0.0\r\n[Physics::Module] Threading Mode: Multi-Threaded\r\nRefreshing native plugins compatible for Editor in 17.04 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nInitialize engine version: 6000.0.38f1 (82314a941f2d)\r\n[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems\r\n[Subsystems] Discovering subsystems at path C:/Users/leedo/Desktop/mänguprojekt/iti0301-2025/Casino1.0/Assets\r\nGfxDevice: creating device client; kGfxThreadingModeNonThreaded\r\nDirect3D:\r\n    Version:  Direct3D 11.0 [level 11.1]\r\n    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)\r\n    Vendor:   NVIDIA\r\n    VRAM:     12115 MB\r\n    Driver:   32.0.15.6636\r\nInitialize mono\r\nMono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'\r\nMono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'\r\nMono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'\r\nUsing monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832\r\nBegin MonoManager ReloadAssembly\r\nRegistering precompiled unity dll's ...\r\nRegister platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll\r\nRegister platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll\r\nRegistered in 0.014571 seconds.\r\n- Loaded All Assemblies, in  1.802 seconds\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  1.063 seconds\r\nDomain Reload Profiling: 2860ms\r\n\tBeginReloadAssembly (1066ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (0ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (1ms)\r\n\tRebuildCommonClasses (157ms)\r\n\tRebuildNativeTypeToScriptingClass (30ms)\r\n\tinitialDomainReloadingComplete (170ms)\r\n\tLoadAllAssembliesAndSetupDomain (373ms)\r\n\t\tLoadAssemblies (1061ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (368ms)\r\n\t\t\tTypeCache.Refresh (367ms)\r\n\t\t\t\tTypeCache.ScanAssembly (343ms)\r\n\t\t\tBuildScriptInfoCaches (0ms)\r\n\t\t\tResolveRequiredComponents (1ms)\r\n\tFinalizeReload (1063ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (982ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (59ms)\r\n\t\t\tSetLoadedEditorAssemblies (15ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (129ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (694ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (85ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (0ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (0ms)\r\n========================================================================\r\nWorker process is ready to serve import requests\r\nImport Worker Mode flag is 0x00\r\nBegin MonoManager ReloadAssembly\r\nSymbol file LoadedFromMemory is not a mono symbol file\r\n- Loaded All Assemblies, in  0.582 seconds\r\nRefreshing native plugins compatible for Editor in 4.17 ms, found 2 plugins.\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nRefreshing native plugins compatible for Editor in 4.74 ms, found 2 plugins.\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  0.872 seconds\r\nDomain Reload Profiling: 1449ms\r\n\tBeginReloadAssembly (165ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (6ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (25ms)\r\n\tRebuildCommonClasses (35ms)\r\n\tRebuildNativeTypeToScriptingClass (9ms)\r\n\tinitialDomainReloadingComplete (36ms)\r\n\tLoadAllAssembliesAndSetupDomain (333ms)\r\n\t\tLoadAssemblies (321ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (109ms)\r\n\t\t\tTypeCache.Refresh (82ms)\r\n\t\t\t\tTypeCache.ScanAssembly (68ms)\r\n\t\t\tBuildScriptInfoCaches (23ms)\r\n\t\t\tResolveRequiredComponents (2ms)\r\n\tFinalizeReload (872ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (775ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (2ms)\r\n\t\t\tSetLoadedEditorAssemblies (4ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (107ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (484ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (167ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (11ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (10ms)\r\nLaunched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds\r\nRefreshing native plugins compatible for Editor in 7.20 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nUnloading 7 Unused Serialized files (Serialized files now loaded: 0)\r\nUnloading 2726 unused Assets / (0.6 MB). Loaded Objects now: 3209.\r\nMemory consumption went from 87.3 MB to 86.7 MB.\r\nTotal: 9.528700 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.107900 ms MarkObjects: 8.582500 ms  DeleteObjects: 0.563300 ms)\r\n\r\n========================================================================\r\nReceived Prepare\r\nBegin MonoManager ReloadAssembly\r\nSymbol file LoadedFromMemory is not a mono symbol file\r\n- Loaded All Assemblies, in  0.562 seconds\r\nRefreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.\r\nNative extension for WindowsStandalone target not found\r\nNative extension for WebGL target not found\r\nMono: successfully reloaded assembly\r\n- Finished resetting the current domain, in  1.146 seconds\r\nDomain Reload Profiling: 1704ms\r\n\tBeginReloadAssembly (176ms)\r\n\t\tExecutionOrderSort (0ms)\r\n\t\tDisableScriptedObjects (4ms)\r\n\t\tBackupInstance (0ms)\r\n\t\tReleaseScriptingObjects (0ms)\r\n\t\tCreateAndSetChildDomain (42ms)\r\n\tRebuildCommonClasses (35ms)\r\n\tRebuildNativeTypeToScriptingClass (12ms)\r\n\tinitialDomainReloadingComplete (23ms)\r\n\tLoadAllAssembliesAndSetupDomain (312ms)\r\n\t\tLoadAssemblies (322ms)\r\n\t\tRebuildTransferFunctionScriptingTraits (0ms)\r\n\t\tAnalyzeDomain (85ms)\r\n\t\t\tTypeCache.Refresh (4ms)\r\n\t\t\t\tTypeCache.ScanAssembly (0ms)\r\n\t\t\tBuildScriptInfoCaches (76ms)\r\n\t\t\tResolveRequiredComponents (3ms)\r\n\tFinalizeReload (1146ms)\r\n\t\tReleaseScriptCaches (0ms)\r\n\t\tRebuildScriptCaches (0ms)\r\n\t\tSetupLoadedEditorAssemblies (997ms)\r\n\t\t\tLogAssemblyErrors (0ms)\r\n\t\t\tInitializePlatformSupportModulesInManaged (3ms)\r\n\t\t\tSetLoadedEditorAssemblies (8ms)\r\n\t\t\tBeforeProcessingInitializeOnLoad (202ms)\r\n\t\t\tProcessInitializeOnLoadAttributes (614ms)\r\n\t\t\tProcessInitializeOnLoadMethodAttributes (160ms)\r\n\t\t\tAfterProcessingInitializeOnLoad (9ms)\r\n\t\t\tEditorAssembliesLoaded (0ms)\r\n\t\tExecutionOrderSort2 (0ms)\r\n\t\tAwakeInstancesAfterBackupRestoration (12ms)\r\nRefreshing native plugins compatible for Editor in 5.40 ms, found 2 plugins.\r\nPreloading 0 native plugins for Editor in 0.00 ms.\r\nUnloading 0 Unused Serialized files (Serialized files now loaded: 0)\r\nUnloading 2724 unused Assets / (0.6 MB). Loaded Objects now: 3209.\r\nMemory consumption went from 86.2 MB to 85.6 MB.\r\nTotal: 10.895600 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.238600 ms MarkObjects: 9.538800 ms  DeleteObjects: 0.518300 ms)\r\n\r\nPrepare: number of updated asset objects reloaded= 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/AssetImportWorker1.log b/Logs/AssetImportWorker1.log
+--- a/Logs/AssetImportWorker1.log	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/Logs/AssetImportWorker1.log	(date 1740587028946)
+@@ -237,3 +237,103 @@
+ Total: 10.895600 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.238600 ms MarkObjects: 9.538800 ms  DeleteObjects: 0.518300 ms)
+ 
+ Prepare: number of updated asset objects reloaded= 0
++========================================================================
++Received Prepare
++Begin MonoManager ReloadAssembly
++Symbol file LoadedFromMemory is not a mono symbol file
++- Loaded All Assemblies, in  0.525 seconds
++Refreshing native plugins compatible for Editor in 5.73 ms, found 2 plugins.
++Native extension for WindowsStandalone target not found
++Native extension for WebGL target not found
++Mono: successfully reloaded assembly
++- Finished resetting the current domain, in  1.182 seconds
++Domain Reload Profiling: 1703ms
++	BeginReloadAssembly (172ms)
++		ExecutionOrderSort (0ms)
++		DisableScriptedObjects (6ms)
++		BackupInstance (0ms)
++		ReleaseScriptingObjects (0ms)
++		CreateAndSetChildDomain (40ms)
++	RebuildCommonClasses (26ms)
++	RebuildNativeTypeToScriptingClass (10ms)
++	initialDomainReloadingComplete (26ms)
++	LoadAllAssembliesAndSetupDomain (287ms)
++		LoadAssemblies (308ms)
++		RebuildTransferFunctionScriptingTraits (0ms)
++		AnalyzeDomain (71ms)
++			TypeCache.Refresh (4ms)
++				TypeCache.ScanAssembly (0ms)
++			BuildScriptInfoCaches (62ms)
++			ResolveRequiredComponents (2ms)
++	FinalizeReload (1183ms)
++		ReleaseScriptCaches (0ms)
++		RebuildScriptCaches (0ms)
++		SetupLoadedEditorAssemblies (1010ms)
++			LogAssemblyErrors (0ms)
++			InitializePlatformSupportModulesInManaged (7ms)
++			SetLoadedEditorAssemblies (15ms)
++			BeforeProcessingInitializeOnLoad (197ms)
++			ProcessInitializeOnLoadAttributes (608ms)
++			ProcessInitializeOnLoadMethodAttributes (171ms)
++			AfterProcessingInitializeOnLoad (11ms)
++			EditorAssembliesLoaded (0ms)
++		ExecutionOrderSort2 (0ms)
++		AwakeInstancesAfterBackupRestoration (10ms)
++Refreshing native plugins compatible for Editor in 5.09 ms, found 2 plugins.
++Preloading 0 native plugins for Editor in 0.00 ms.
++Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
++Unloading 2724 unused Assets / (0.6 MB). Loaded Objects now: 3209.
++Memory consumption went from 86.2 MB to 85.6 MB.
++Total: 7.309600 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.123800 ms MarkObjects: 6.414300 ms  DeleteObjects: 0.495000 ms)
++
++Prepare: number of updated asset objects reloaded= 0
++========================================================================
++Received Prepare
++Begin MonoManager ReloadAssembly
++Symbol file LoadedFromMemory is not a mono symbol file
++- Loaded All Assemblies, in  0.545 seconds
++Refreshing native plugins compatible for Editor in 4.81 ms, found 2 plugins.
++Native extension for WindowsStandalone target not found
++Native extension for WebGL target not found
++Mono: successfully reloaded assembly
++- Finished resetting the current domain, in  1.099 seconds
++Domain Reload Profiling: 1641ms
++	BeginReloadAssembly (170ms)
++		ExecutionOrderSort (0ms)
++		DisableScriptedObjects (8ms)
++		BackupInstance (0ms)
++		ReleaseScriptingObjects (0ms)
++		CreateAndSetChildDomain (46ms)
++	RebuildCommonClasses (31ms)
++	RebuildNativeTypeToScriptingClass (13ms)
++	initialDomainReloadingComplete (25ms)
++	LoadAllAssembliesAndSetupDomain (303ms)
++		LoadAssemblies (294ms)
++		RebuildTransferFunctionScriptingTraits (0ms)
++		AnalyzeDomain (86ms)
++			TypeCache.Refresh (4ms)
++				TypeCache.ScanAssembly (0ms)
++			BuildScriptInfoCaches (76ms)
++			ResolveRequiredComponents (4ms)
++	FinalizeReload (1099ms)
++		ReleaseScriptCaches (0ms)
++		RebuildScriptCaches (0ms)
++		SetupLoadedEditorAssemblies (978ms)
++			LogAssemblyErrors (0ms)
++			InitializePlatformSupportModulesInManaged (3ms)
++			SetLoadedEditorAssemblies (9ms)
++			BeforeProcessingInitializeOnLoad (215ms)
++			ProcessInitializeOnLoadAttributes (571ms)
++			ProcessInitializeOnLoadMethodAttributes (171ms)
++			AfterProcessingInitializeOnLoad (8ms)
++			EditorAssembliesLoaded (1ms)
++		ExecutionOrderSort2 (0ms)
++		AwakeInstancesAfterBackupRestoration (9ms)
++Refreshing native plugins compatible for Editor in 4.92 ms, found 2 plugins.
++Preloading 0 native plugins for Editor in 0.00 ms.
++Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
++Unloading 2724 unused Assets / (493.4 KB). Loaded Objects now: 3209.
++Memory consumption went from 86.2 MB to 85.7 MB.
++Total: 8.122400 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.322800 ms MarkObjects: 7.084000 ms  DeleteObjects: 0.381900 ms)
++
++Prepare: number of updated asset objects reloaded= 0
+Index: UserSettings/Layouts/default-6000.dwlt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!114 &1\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_PixelRect:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 43\r\n    width: 1920\r\n    height: 997\r\n  m_ShowMode: 4\r\n  m_Title: Hierarchy\r\n  m_RootView: {fileID: 2}\r\n  m_MinSize: {x: 875, y: 300}\r\n  m_MaxSize: {x: 10000, y: 10000}\r\n  m_Maximized: 1\r\n--- !u!114 &2\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children:\r\n  - {fileID: 3}\r\n  - {fileID: 5}\r\n  - {fileID: 4}\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1920\r\n    height: 997\r\n  m_MinSize: {x: 875, y: 300}\r\n  m_MaxSize: {x: 10000, y: 10000}\r\n  m_UseTopView: 1\r\n  m_TopViewHeight: 36\r\n  m_UseBottomView: 1\r\n  m_BottomViewHeight: 20\r\n--- !u!114 &3\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1920\r\n    height: 36\r\n  m_MinSize: {x: 0, y: 0}\r\n  m_MaxSize: {x: 0, y: 0}\r\n  m_LastLoadedLayoutName: \r\n--- !u!114 &4\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 977\r\n    width: 1920\r\n    height: 20\r\n  m_MinSize: {x: 0, y: 0}\r\n  m_MaxSize: {x: 0, y: 0}\r\n--- !u!114 &5\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children:\r\n  - {fileID: 6}\r\n  - {fileID: 11}\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 36\r\n    width: 1920\r\n    height: 941\r\n  m_MinSize: {x: 300, y: 100}\r\n  m_MaxSize: {x: 24288, y: 16192}\r\n  vertical: 0\r\n  controlID: 2358\r\n  draggingID: 0\r\n--- !u!114 &6\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children:\r\n  - {fileID: 7}\r\n  - {fileID: 10}\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1391\r\n    height: 941\r\n  m_MinSize: {x: 200, y: 100}\r\n  m_MaxSize: {x: 16192, y: 16192}\r\n  vertical: 1\r\n  controlID: 2359\r\n  draggingID: 0\r\n--- !u!114 &7\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children:\r\n  - {fileID: 8}\r\n  - {fileID: 9}\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1391\r\n    height: 577\r\n  m_MinSize: {x: 200, y: 50}\r\n  m_MaxSize: {x: 16192, y: 8096}\r\n  vertical: 0\r\n  controlID: 2360\r\n  draggingID: 0\r\n--- !u!114 &8\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 196\r\n    height: 577\r\n  m_MinSize: {x: 201, y: 226}\r\n  m_MaxSize: {x: 4001, y: 4026}\r\n  m_ActualView: {fileID: 13}\r\n  m_Panes:\r\n  - {fileID: 13}\r\n  m_Selected: 0\r\n  m_LastSelected: 0\r\n--- !u!114 &9\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: SceneView\r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 196\r\n    y: 0\r\n    width: 1195\r\n    height: 577\r\n  m_MinSize: {x: 202, y: 226}\r\n  m_MaxSize: {x: 4002, y: 4026}\r\n  m_ActualView: {fileID: 14}\r\n  m_Panes:\r\n  - {fileID: 14}\r\n  m_Selected: 0\r\n  m_LastSelected: 0\r\n--- !u!114 &10\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: GameView\r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 577\r\n    width: 1391\r\n    height: 364\r\n  m_MinSize: {x: 201, y: 226}\r\n  m_MaxSize: {x: 4001, y: 4026}\r\n  m_ActualView: {fileID: 12}\r\n  m_Panes:\r\n  - {fileID: 15}\r\n  - {fileID: 12}\r\n  m_Selected: 1\r\n  m_LastSelected: 0\r\n--- !u!114 &11\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: ProjectBrowser\r\n  m_EditorClassIdentifier: \r\n  m_Children: []\r\n  m_Position:\r\n    serializedVersion: 2\r\n    x: 1391\r\n    y: 0\r\n    width: 529\r\n    height: 941\r\n  m_MinSize: {x: 231, y: 276}\r\n  m_MaxSize: {x: 10001, y: 10026}\r\n  m_ActualView: {fileID: 16}\r\n  m_Panes:\r\n  - {fileID: 16}\r\n  - {fileID: 17}\r\n  m_Selected: 0\r\n  m_LastSelected: 1\r\n--- !u!114 &12\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 200, y: 200}\r\n  m_MaxSize: {x: 4000, y: 4000}\r\n  m_TitleContent:\r\n    m_Text: Game\r\n    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Game\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 601\r\n    width: 1390\r\n    height: 338\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData: []\r\n    m_ContainerData: []\r\n    m_OverlaysVisible: 1\r\n  m_SerializedViewNames:\r\n  - UnityEditor.DeviceSimulation.SimulatorWindow\r\n  m_SerializedViewValues:\r\n  - C:\\Users\\leedo\\IdeaProjects\\iti0301-2025\\Unity\\Library\\PlayModeViewStates\\ee699f683506f754995fe1000e8cf0ab\r\n  m_PlayModeViewName: GameView\r\n  m_ShowGizmos: 1\r\n  m_TargetDisplay: 0\r\n  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}\r\n  m_TargetSize: {x: 1390, y: 317}\r\n  m_TextureFilterMode: 0\r\n  m_TextureHideFlags: 61\r\n  m_RenderIMGUI: 1\r\n  m_EnterPlayModeBehavior: 0\r\n  m_UseMipMap: 0\r\n  m_VSyncEnabled: 0\r\n  m_Gizmos: 1\r\n  m_Stats: 0\r\n  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000\r\n  m_ZoomArea:\r\n    m_HRangeLocked: 0\r\n    m_VRangeLocked: 0\r\n    hZoomLockedByDefault: 0\r\n    vZoomLockedByDefault: 0\r\n    m_HBaseRangeMin: -695\r\n    m_HBaseRangeMax: 695\r\n    m_VBaseRangeMin: -158.5\r\n    m_VBaseRangeMax: 158.5\r\n    m_HAllowExceedBaseRangeMin: 1\r\n    m_HAllowExceedBaseRangeMax: 1\r\n    m_VAllowExceedBaseRangeMin: 1\r\n    m_VAllowExceedBaseRangeMax: 1\r\n    m_ScaleWithWindow: 0\r\n    m_HSlider: 0\r\n    m_VSlider: 0\r\n    m_IgnoreScrollWheelUntilClicked: 0\r\n    m_EnableMouseInput: 1\r\n    m_EnableSliderZoomHorizontal: 0\r\n    m_EnableSliderZoomVertical: 0\r\n    m_UniformScale: 1\r\n    m_UpDirection: 1\r\n    m_DrawArea:\r\n      serializedVersion: 2\r\n      x: 0\r\n      y: 21\r\n      width: 1390\r\n      height: 317\r\n    m_Scale: {x: 1, y: 1}\r\n    m_Translation: {x: 695, y: 158.5}\r\n    m_MarginLeft: 0\r\n    m_MarginRight: 0\r\n    m_MarginTop: 0\r\n    m_MarginBottom: 0\r\n    m_LastShownAreaInsideMargins:\r\n      serializedVersion: 2\r\n      x: -695\r\n      y: -158.5\r\n      width: 1390\r\n      height: 317\r\n    m_MinimalGUI: 1\r\n  m_defaultScale: 1\r\n  m_LastWindowPixelSize: {x: 1390, y: 338}\r\n  m_ClearInEditMode: 1\r\n  m_NoCameraWarning: 1\r\n  m_LowResolutionForAspectRatios: 01000000000000000000\r\n  m_XRRenderMode: 0\r\n  m_RenderTexture: {fileID: 0}\r\n  m_showToolbar: 1\r\n--- !u!114 &13\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 200, y: 200}\r\n  m_MaxSize: {x: 4000, y: 4000}\r\n  m_TitleContent:\r\n    m_Text: Hierarchy\r\n    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Hierarchy\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 24\r\n    width: 195\r\n    height: 551\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData: []\r\n    m_ContainerData: []\r\n    m_OverlaysVisible: 1\r\n  m_SceneHierarchy:\r\n    m_TreeViewState:\r\n      scrollPos: {x: 0, y: 0}\r\n      m_SelectedIDs: \r\n      m_LastClickedID: 0\r\n      m_ExpandedIDs: 22fbffff44710000\r\n      m_RenameOverlay:\r\n        m_UserAcceptedRename: 0\r\n        m_Name: \r\n        m_OriginalName: \r\n        m_EditFieldRect:\r\n          serializedVersion: 2\r\n          x: 0\r\n          y: 0\r\n          width: 0\r\n          height: 0\r\n        m_UserData: 0\r\n        m_IsWaitingForDelay: 0\r\n        m_IsRenaming: 0\r\n        m_OriginalEventType: 11\r\n        m_IsRenamingFilename: 0\r\n        m_TrimLeadingAndTrailingWhitespace: 0\r\n        m_ClientGUIView: {fileID: 8}\r\n      m_SearchString: \r\n    m_ExpandedScenes: []\r\n    m_CurrenRootInstanceID: 0\r\n    m_LockTracker:\r\n      m_IsLocked: 0\r\n    m_CurrentSortingName: TransformSorting\r\n  m_WindowGUID: 4c969a2b90040154d917609493e03593\r\n--- !u!114 &14\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 200, y: 200}\r\n  m_MaxSize: {x: 4000, y: 4000}\r\n  m_TitleContent:\r\n    m_Text: Scene\r\n    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Scene\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 197\r\n    y: 24\r\n    width: 1193\r\n    height: 551\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData:\r\n    - dockPosition: 0\r\n      containerId: overlay-toolbar__top\r\n      displayed: 1\r\n      id: Tool Settings\r\n      index: 0\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":-24.0,\"y\":-24.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":3,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: -24, y: -24}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 3\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-toolbar__top\r\n      displayed: 0\r\n      id: unity-grid-and-snap-toolbar\r\n      index: 1\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":-141.0,\"y\":149.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":1,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: -141, y: 149}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 1\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-toolbar__top\r\n      displayed: 1\r\n      id: unity-scene-view-toolbar\r\n      index: 0\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-toolbar__top\r\n      displayed: 1\r\n      id: unity-scene-view-camera-mode-toolbar\r\n      index: 1\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-toolbar__top\r\n      displayed: 0\r\n      id: unity-search-toolbar\r\n      index: 2\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":-24.0,\"y\":0.0},\"m_FloatingSnapCorner\":1,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: -24, y: 0}\r\n      snapCorner: 1\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-container--left\r\n      displayed: 1\r\n      id: unity-transform-toolbar\r\n      index: 0\r\n      contents: '{\"m_Layout\":2,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":26.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 26}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 2\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-container--left\r\n      displayed: 1\r\n      id: unity-component-tools\r\n      index: 1\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 197}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 2\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-container--right\r\n      displayed: 1\r\n      id: Orientation\r\n      index: 0\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":67.5,\"y\":86.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 67.5, y: 86}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Light Settings\r\n      index: 3\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Camera\r\n      index: 1\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Cloth Constraints\r\n      index: 5\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Cloth Collisions\r\n      index: 6\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Navmesh Display\r\n      index: 4\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Agent Display\r\n      index: 5\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Obstacle Display\r\n      index: 6\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Occlusion Culling\r\n      index: 7\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Physics Debugger\r\n      index: 8\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Scene Visibility\r\n      index: 9\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Particles\r\n      index: 10\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Tilemap\r\n      index: 11\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Tilemap Palette Helper\r\n      index: 12\r\n      contents: \r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-toolbar__top\r\n      displayed: 0\r\n      id: Brush Attributes\r\n      index: 2\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-toolbar__left\r\n      displayed: 0\r\n      id: Terrain Tools\r\n      index: 0\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 0\r\n      containerId: overlay-toolbar__left\r\n      displayed: 0\r\n      id: Brush Masks\r\n      index: 1\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--left\r\n      displayed: 0\r\n      id: Scene View/Lighting Visualization Colors\r\n      index: 0\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--left\r\n      displayed: 1\r\n      id: Overlays/OverlayMenu\r\n      index: 1\r\n      contents: '{\"m_Layout\":1,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 1\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: APV Overlay\r\n      index: 7\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 1\r\n      id: AINavigationOverlay\r\n      index: 12\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: SceneView/CamerasOverlay\r\n      index: 11\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":24.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":0.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 24, y: 0}\r\n      snapOffsetDelta: {x: 0, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/PBR Validation Settings\r\n      index: 13\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/TrailRenderer\r\n      index: 14\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Visual Effect\r\n      index: 11\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Visual Effect Timeline Control\r\n      index: 12\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Visual Effect Event Tester\r\n      index: 13\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Visual Effect Model\r\n      index: 14\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Open Tile Palette\r\n      index: 0\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Tile Palette Clipboard\r\n      index: 1\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Tilemap Focus\r\n      index: 2\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    - dockPosition: 1\r\n      containerId: overlay-container--right\r\n      displayed: 0\r\n      id: Scene View/Tile Palette Brush Pick\r\n      index: 4\r\n      contents: '{\"m_Layout\":4,\"m_Collapsed\":false,\"m_Floating\":false,\"m_FloatingSnapOffset\":{\"x\":0.0,\"y\":0.0},\"m_SnapOffsetDelta\":{\"x\":24.0,\"y\":0.0},\"m_FloatingSnapCorner\":0,\"m_Size\":{\"x\":0.0,\"y\":0.0},\"m_SizeOverridden\":false}'\r\n      floating: 0\r\n      collapsed: 0\r\n      snapOffset: {x: 0, y: 0}\r\n      snapOffsetDelta: {x: 24, y: 0}\r\n      snapCorner: 0\r\n      layout: 4\r\n      size: {x: 0, y: 0}\r\n      sizeOverridden: 0\r\n    m_ContainerData:\r\n    - containerId: overlay-toolbar__top\r\n      scrollOffset: 0\r\n    - containerId: overlay-toolbar__left\r\n      scrollOffset: 0\r\n    - containerId: overlay-container--left\r\n      scrollOffset: 0\r\n    - containerId: overlay-container--right\r\n      scrollOffset: 0\r\n    - containerId: overlay-toolbar__right\r\n      scrollOffset: 0\r\n    - containerId: overlay-toolbar__bottom\r\n      scrollOffset: 0\r\n    - containerId: Floating\r\n      scrollOffset: 0\r\n    m_OverlaysVisible: 1\r\n  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429\r\n  m_Gizmos: 1\r\n  m_OverrideSceneCullingMask: 6917529027641081856\r\n  m_SceneIsLit: 1\r\n  m_SceneLighting: 1\r\n  m_2DMode: 0\r\n  m_isRotationLocked: 0\r\n  m_PlayAudio: 0\r\n  m_AudioPlay: 0\r\n  m_DebugDrawModesUseInteractiveLightBakingData: 0\r\n  m_Position:\r\n    m_Target: {x: 6.7243357, y: 3.3172734, z: 7.955757}\r\n    speed: 2\r\n    m_Value: {x: 6.7243357, y: 3.3172734, z: 7.955757}\r\n  m_RenderMode: 0\r\n  m_CameraMode:\r\n    drawMode: 0\r\n    name: Shaded\r\n    section: Shading Mode\r\n  m_ValidateTrueMetals: 0\r\n  m_DoValidateTrueMetals: 0\r\n  m_SceneViewState:\r\n    m_AlwaysRefresh: 1\r\n    showFog: 1\r\n    showSkybox: 1\r\n    showFlares: 1\r\n    showImageEffects: 1\r\n    showParticleSystems: 1\r\n    showVisualEffectGraphs: 1\r\n    m_FxEnabled: 1\r\n  m_Grid:\r\n    xGrid:\r\n      m_Fade:\r\n        m_Target: 0\r\n        speed: 2\r\n        m_Value: 0\r\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\r\n      m_Pivot: {x: 0, y: 0, z: 0}\r\n      m_Size: {x: 1, y: 1}\r\n    yGrid:\r\n      m_Fade:\r\n        m_Target: 1\r\n        speed: 2\r\n        m_Value: 1\r\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\r\n      m_Pivot: {x: 0, y: 0, z: 0}\r\n      m_Size: {x: 1, y: 1}\r\n    zGrid:\r\n      m_Fade:\r\n        m_Target: 0\r\n        speed: 2\r\n        m_Value: 0\r\n      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}\r\n      m_Pivot: {x: 0, y: 0, z: 0}\r\n      m_Size: {x: 1, y: 1}\r\n    m_ShowGrid: 1\r\n    m_GridAxis: 1\r\n    m_gridOpacity: 0.5\r\n  m_Rotation:\r\n    m_Target: {x: 0.08746706, y: 0.87396467, z: -0.17125376, w: 0.4463516}\r\n    speed: 2\r\n    m_Value: {x: 0.08746705, y: 0.87396467, z: -0.17125376, w: 0.4463516}\r\n  m_Size:\r\n    m_Target: 2.9474566\r\n    speed: 2\r\n    m_Value: 2.9474566\r\n  m_Ortho:\r\n    m_Target: 0\r\n    speed: 2\r\n    m_Value: 0\r\n  m_CameraSettings:\r\n    m_Speed: 0.94053\r\n    m_SpeedNormalized: 0.47\r\n    m_SpeedMin: 0.001\r\n    m_SpeedMax: 2\r\n    m_EasingEnabled: 1\r\n    m_EasingDuration: 0.4\r\n    m_AccelerationEnabled: 1\r\n    m_FieldOfViewHorizontalOrVertical: 60\r\n    m_NearClip: 0.03\r\n    m_FarClip: 10000\r\n    m_DynamicClip: 1\r\n    m_OcclusionCulling: 0\r\n  m_LastSceneViewRotation: {x: 0.19256897, y: 0.37454894, z: -0.079831764, w: 0.9034723}\r\n  m_LastSceneViewOrtho: 0\r\n  m_Viewpoint:\r\n    m_SceneView: {fileID: 14}\r\n    m_CameraOverscanSettings:\r\n      m_Opacity: 50\r\n      m_Scale: 1\r\n  m_ReplacementShader: {fileID: 0}\r\n  m_ReplacementString: \r\n  m_SceneVisActive: 1\r\n  m_LastLockedObject: {fileID: 0}\r\n  m_LastDebugDrawMode:\r\n    drawMode: 35\r\n    name: \r\n    section: \r\n  m_ViewIsLockedToObject: 0\r\n--- !u!114 &15\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 100, y: 100}\r\n  m_MaxSize: {x: 4000, y: 4000}\r\n  m_TitleContent:\r\n    m_Text: Console\r\n    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Console\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 656\r\n    width: 1390\r\n    height: 338\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData: []\r\n    m_ContainerData: []\r\n    m_OverlaysVisible: 1\r\n--- !u!114 &16\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 230, y: 250}\r\n  m_MaxSize: {x: 10000, y: 10000}\r\n  m_TitleContent:\r\n    m_Text: Project\r\n    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Project\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 1392\r\n    y: 24\r\n    width: 528\r\n    height: 915\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData: []\r\n    m_ContainerData: []\r\n    m_OverlaysVisible: 1\r\n  m_SearchFilter:\r\n    m_NameFilter: \r\n    m_ClassNames: []\r\n    m_AssetLabels: []\r\n    m_AssetBundleNames: []\r\n    m_ReferencingInstanceIDs: \r\n    m_SceneHandles: \r\n    m_ShowAllHits: 0\r\n    m_SkipHidden: 0\r\n    m_SearchArea: 1\r\n    m_Folders:\r\n    - Assets\r\n    m_Globs: []\r\n    m_ProductIds: \r\n    m_AnyWithAssetOrigin: 0\r\n    m_OriginalText: \r\n    m_ImportLogFlags: 0\r\n    m_FilterByTypeIntersection: 0\r\n  m_ViewMode: 1\r\n  m_StartGridSize: 64\r\n  m_LastFolders:\r\n  - Assets\r\n  m_LastFoldersGridSize: -1\r\n  m_LastProjectPath: \"C:\\\\Users\\\\leedo\\\\Desktop\\\\m\\xE4nguprojekt\\\\iti0301-2025\\\\Casino1.0\"\r\n  m_LockTracker:\r\n    m_IsLocked: 0\r\n  m_FolderTreeState:\r\n    scrollPos: {x: 0, y: 0}\r\n    m_SelectedIDs: 8c710000\r\n    m_LastClickedID: 29068\r\n    m_ExpandedIDs: 000000005c7400005e740000\r\n    m_RenameOverlay:\r\n      m_UserAcceptedRename: 0\r\n      m_Name: \r\n      m_OriginalName: \r\n      m_EditFieldRect:\r\n        serializedVersion: 2\r\n        x: 0\r\n        y: 0\r\n        width: 0\r\n        height: 0\r\n      m_UserData: 0\r\n      m_IsWaitingForDelay: 0\r\n      m_IsRenaming: 0\r\n      m_OriginalEventType: 11\r\n      m_IsRenamingFilename: 1\r\n      m_TrimLeadingAndTrailingWhitespace: 0\r\n      m_ClientGUIView: {fileID: 11}\r\n    m_SearchString: \r\n    m_CreateAssetUtility:\r\n      m_EndAction: {fileID: 0}\r\n      m_InstanceID: 0\r\n      m_Path: \r\n      m_Icon: {fileID: 0}\r\n      m_ResourceFile: \r\n  m_AssetTreeState:\r\n    scrollPos: {x: 0, y: 0}\r\n    m_SelectedIDs: \r\n    m_LastClickedID: 0\r\n    m_ExpandedIDs: 000000005c7400005e740000\r\n    m_RenameOverlay:\r\n      m_UserAcceptedRename: 0\r\n      m_Name: \r\n      m_OriginalName: \r\n      m_EditFieldRect:\r\n        serializedVersion: 2\r\n        x: 0\r\n        y: 0\r\n        width: 0\r\n        height: 0\r\n      m_UserData: 0\r\n      m_IsWaitingForDelay: 0\r\n      m_IsRenaming: 0\r\n      m_OriginalEventType: 11\r\n      m_IsRenamingFilename: 1\r\n      m_TrimLeadingAndTrailingWhitespace: 0\r\n      m_ClientGUIView: {fileID: 0}\r\n    m_SearchString: \r\n    m_CreateAssetUtility:\r\n      m_EndAction: {fileID: 0}\r\n      m_InstanceID: 0\r\n      m_Path: \r\n      m_Icon: {fileID: 0}\r\n      m_ResourceFile: \r\n  m_ListAreaState:\r\n    m_SelectedInstanceIDs: \r\n    m_LastClickedInstanceID: 0\r\n    m_HadKeyboardFocusLastEvent: 1\r\n    m_ExpandedInstanceIDs: c6230000\r\n    m_RenameOverlay:\r\n      m_UserAcceptedRename: 0\r\n      m_Name: \r\n      m_OriginalName: \r\n      m_EditFieldRect:\r\n        serializedVersion: 2\r\n        x: 0\r\n        y: 0\r\n        width: 0\r\n        height: 0\r\n      m_UserData: 0\r\n      m_IsWaitingForDelay: 0\r\n      m_IsRenaming: 0\r\n      m_OriginalEventType: 11\r\n      m_IsRenamingFilename: 1\r\n      m_TrimLeadingAndTrailingWhitespace: 0\r\n      m_ClientGUIView: {fileID: 11}\r\n    m_CreateAssetUtility:\r\n      m_EndAction: {fileID: 0}\r\n      m_InstanceID: 0\r\n      m_Path: \r\n      m_Icon: {fileID: 0}\r\n      m_ResourceFile: \r\n    m_NewAssetIndexInList: -1\r\n    m_ScrollPosition: {x: 0, y: 0}\r\n    m_GridSize: 64\r\n  m_SkipHiddenPackages: 0\r\n  m_DirectoriesAreaWidth: 207\r\n--- !u!114 &17\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 52\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 1\r\n  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_Name: \r\n  m_EditorClassIdentifier: \r\n  m_MinSize: {x: 275, y: 50}\r\n  m_MaxSize: {x: 4000, y: 4000}\r\n  m_TitleContent:\r\n    m_Text: Inspector\r\n    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}\r\n    m_Tooltip: \r\n    m_TextWithWhitespace: \"Inspector\\u200B\"\r\n  m_Pos:\r\n    serializedVersion: 2\r\n    x: 1391\r\n    y: 79\r\n    width: 528\r\n    height: 915\r\n  m_SerializedDataModeController:\r\n    m_DataMode: 0\r\n    m_PreferredDataMode: 0\r\n    m_SupportedDataModes: \r\n    isAutomatic: 1\r\n  m_ViewDataDictionary: {fileID: 0}\r\n  m_OverlayCanvas:\r\n    m_LastAppliedPresetName: Default\r\n    m_SaveData: []\r\n    m_ContainerData: []\r\n    m_OverlaysVisible: 1\r\n  m_ObjectsLockedBeforeSerialization: []\r\n  m_InstanceIDsLockedBeforeSerialization: \r\n  m_PreviewResizer:\r\n    m_CachedPref: 160\r\n    m_ControlHash: -371814159\r\n    m_PrefName: Preview_InspectorPreview\r\n  m_LastInspectedObjectInstanceID: -1\r\n  m_LastVerticalScrollValue: 26\r\n  m_GlobalObjectId: \r\n  m_InspectorMode: 0\r\n  m_LockTracker:\r\n    m_IsLocked: 0\r\n  m_PreviewWindow: {fileID: 0}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UserSettings/Layouts/default-6000.dwlt b/UserSettings/Layouts/default-6000.dwlt
+--- a/UserSettings/Layouts/default-6000.dwlt	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/UserSettings/Layouts/default-6000.dwlt	(date 1740590628854)
+@@ -19,7 +19,7 @@
+     width: 1920
+     height: 997
+   m_ShowMode: 4
+-  m_Title: Hierarchy
++  m_Title: Game
+   m_RootView: {fileID: 2}
+   m_MinSize: {x: 875, y: 300}
+   m_MaxSize: {x: 10000, y: 10000}
+@@ -119,7 +119,7 @@
+   m_MinSize: {x: 300, y: 100}
+   m_MaxSize: {x: 24288, y: 16192}
+   vertical: 0
+-  controlID: 2358
++  controlID: 205
+   draggingID: 0
+ --- !u!114 &6
+ MonoBehaviour:
+@@ -145,7 +145,7 @@
+   m_MinSize: {x: 200, y: 100}
+   m_MaxSize: {x: 16192, y: 16192}
+   vertical: 1
+-  controlID: 2359
++  controlID: 206
+   draggingID: 0
+ --- !u!114 &7
+ MonoBehaviour:
+@@ -171,7 +171,7 @@
+   m_MinSize: {x: 200, y: 50}
+   m_MaxSize: {x: 16192, y: 8096}
+   vertical: 0
+-  controlID: 2360
++  controlID: 207
+   draggingID: 0
+ --- !u!114 &8
+ MonoBehaviour:
+@@ -262,7 +262,7 @@
+   m_Enabled: 1
+   m_EditorHideFlags: 1
+   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+-  m_Name: ProjectBrowser
++  m_Name: InspectorWindow
+   m_EditorClassIdentifier: 
+   m_Children: []
+   m_Position:
+@@ -271,14 +271,14 @@
+     y: 0
+     width: 529
+     height: 941
+-  m_MinSize: {x: 231, y: 276}
+-  m_MaxSize: {x: 10001, y: 10026}
+-  m_ActualView: {fileID: 16}
++  m_MinSize: {x: 276, y: 76}
++  m_MaxSize: {x: 4001, y: 4026}
++  m_ActualView: {fileID: 17}
+   m_Panes:
+   - {fileID: 16}
+   - {fileID: 17}
+-  m_Selected: 0
+-  m_LastSelected: 1
++  m_Selected: 1
++  m_LastSelected: 0
+ --- !u!114 &12
+ MonoBehaviour:
+   m_ObjectHideFlags: 52
+@@ -301,7 +301,7 @@
+   m_Pos:
+     serializedVersion: 2
+     x: 0
+-    y: 601
++    y: 656
+     width: 1390
+     height: 338
+   m_SerializedDataModeController:
+@@ -404,7 +404,7 @@
+   m_Pos:
+     serializedVersion: 2
+     x: 0
+-    y: 24
++    y: 79
+     width: 195
+     height: 551
+   m_SerializedDataModeController:
+@@ -421,9 +421,9 @@
+   m_SceneHierarchy:
+     m_TreeViewState:
+       scrollPos: {x: 0, y: 0}
+-      m_SelectedIDs: 
+-      m_LastClickedID: 0
+-      m_ExpandedIDs: 22fbffff44710000
++      m_SelectedIDs: 1a740000
++      m_LastClickedID: 29722
++      m_ExpandedIDs: 30faffff1a740000
+       m_RenameOverlay:
+         m_UserAcceptedRename: 0
+         m_Name: 
+@@ -469,8 +469,8 @@
+     m_TextWithWhitespace: "Scene\u200B"
+   m_Pos:
+     serializedVersion: 2
+-    x: 197
+-    y: 24
++    x: 196
++    y: 79
+     width: 1193
+     height: 551
+   m_SerializedDataModeController:
+@@ -837,12 +837,12 @@
+       displayed: 1
+       id: Overlays/OverlayMenu
+       index: 1
+-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
++      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":-30.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":2,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+       floating: 0
+       collapsed: 0
+-      snapOffset: {x: 24, y: 0}
++      snapOffset: {x: 24, y: -30}
+       snapOffsetDelta: {x: 0, y: 0}
+-      snapCorner: 0
++      snapCorner: 2
+       layout: 1
+       size: {x: 0, y: 0}
+       sizeOverridden: 0
+@@ -1055,9 +1055,9 @@
+   m_AudioPlay: 0
+   m_DebugDrawModesUseInteractiveLightBakingData: 0
+   m_Position:
+-    m_Target: {x: 6.7243357, y: 3.3172734, z: 7.955757}
++    m_Target: {x: -2.2229202, y: -2.5805314, z: 20.187437}
+     speed: 2
+-    m_Value: {x: 6.7243357, y: 3.3172734, z: 7.955757}
++    m_Value: {x: -2.2229202, y: -2.5805314, z: 20.187437}
+   m_RenderMode: 0
+   m_CameraMode:
+     drawMode: 0
+@@ -1103,13 +1103,13 @@
+     m_GridAxis: 1
+     m_gridOpacity: 0.5
+   m_Rotation:
+-    m_Target: {x: 0.08746706, y: 0.87396467, z: -0.17125376, w: 0.4463516}
++    m_Target: {x: 0.07033574, y: -0.3437077, z: 0.025835084, w: 0.9360926}
+     speed: 2
+-    m_Value: {x: 0.08746705, y: 0.87396467, z: -0.17125376, w: 0.4463516}
++    m_Value: {x: 0.070335075, y: -0.34370446, z: 0.02583484, w: 0.9360838}
+   m_Size:
+-    m_Target: 2.9474566
++    m_Target: 10
+     speed: 2
+-    m_Value: 2.9474566
++    m_Value: 10
+   m_Ortho:
+     m_Target: 0
+     speed: 2
+@@ -1200,8 +1200,8 @@
+     m_TextWithWhitespace: "Project\u200B"
+   m_Pos:
+     serializedVersion: 2
+-    x: 1392
+-    y: 24
++    x: 1391
++    y: 79
+     width: 528
+     height: 915
+   m_SerializedDataModeController:
+@@ -1226,7 +1226,7 @@
+     m_SkipHidden: 0
+     m_SearchArea: 1
+     m_Folders:
+-    - Assets
++    - Assets/Scripts
+     m_Globs: []
+     m_ProductIds: 
+     m_AnyWithAssetOrigin: 0
+@@ -1236,15 +1236,15 @@
+   m_ViewMode: 1
+   m_StartGridSize: 64
+   m_LastFolders:
+-  - Assets
++  - Assets/Scripts
+   m_LastFoldersGridSize: -1
+   m_LastProjectPath: "C:\\Users\\leedo\\Desktop\\m\xE4nguprojekt\\iti0301-2025\\Casino1.0"
+   m_LockTracker:
+     m_IsLocked: 0
+   m_FolderTreeState:
+     scrollPos: {x: 0, y: 0}
+-    m_SelectedIDs: 8c710000
+-    m_LastClickedID: 29068
++    m_SelectedIDs: be740000
++    m_LastClickedID: 29886
+     m_ExpandedIDs: 000000005c7400005e740000
+     m_RenameOverlay:
+       m_UserAcceptedRename: 0
+@@ -1300,8 +1300,8 @@
+       m_Icon: {fileID: 0}
+       m_ResourceFile: 
+   m_ListAreaState:
+-    m_SelectedInstanceIDs: 
+-    m_LastClickedInstanceID: 0
++    m_SelectedInstanceIDs: fc730000
++    m_LastClickedInstanceID: 29692
+     m_HadKeyboardFocusLastEvent: 1
+     m_ExpandedInstanceIDs: c6230000
+     m_RenameOverlay:
+@@ -1375,7 +1375,7 @@
+     m_ControlHash: -371814159
+     m_PrefName: Preview_InspectorPreview
+   m_LastInspectedObjectInstanceID: -1
+-  m_LastVerticalScrollValue: 26
++  m_LastVerticalScrollValue: 0
+   m_GlobalObjectId: 
+   m_InspectorMode: 0
+   m_LockTracker:
+Index: Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'\r\nCmd: initializeCompiler\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/shadercompiler-UnityShaderCompiler.exe-0.log b/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+--- a/Logs/shadercompiler-UnityShaderCompiler.exe-0.log	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/Logs/shadercompiler-UnityShaderCompiler.exe-0.log	(date 1740590629056)
+@@ -1,3 +1,4 @@
+ Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'
+ Cmd: initializeCompiler
+ 
++Cmd: shutdown
+Index: Logs/shadercompiler-AssetImportWorker0-0.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'\r\nCmd: initializeCompiler\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/shadercompiler-AssetImportWorker0-0.log b/Logs/shadercompiler-AssetImportWorker0-0.log
+--- a/Logs/shadercompiler-AssetImportWorker0-0.log	(revision 263c84e70662f311e92cb79ff9e99982eac17d52)
++++ b/Logs/shadercompiler-AssetImportWorker0-0.log	(date 1740590629122)
+@@ -1,3 +1,6 @@
+ Base path: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines'
+ Cmd: initializeCompiler
+ 
++Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
++
++Quitting shader compiler process
